@@ -1,7 +1,8 @@
 const assert = require('assert');
 
 it('jest PD', () => {
-    const truthy = '1';
-    const falsy = 0;
-    assert.ok(truthy === falsy);
+    const three = 3;
+    const seven = 7;
+    const ten = 10;
+    assert.ok(three * (seven * ten) === three);
 });
